@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="music_player">Music Player</string>
+    <string name="player">Player</string>
+    <string name="all_musics">All Musics</string>
+    <string name="serarch">Serarch</string>
+    <string name="music_lists">Music Lists</string>
+    <string name="back">Back</string>
+    <string name="menu">Menu</string>
+</resources>

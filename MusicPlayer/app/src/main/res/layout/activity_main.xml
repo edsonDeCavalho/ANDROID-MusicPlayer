@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/musicPlayer"
+        android:layout_width="152dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginEnd="169dp"
+        android:layout_marginBottom="28dp"
+        android:onClick="goToPlayActivity"
+        android:text="@string/player"
+        app:layout_constraintBottom_toTopOf="@+id/lists"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/lists"
+        android:layout_width="154dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="22dp"
+        android:text="@string/music_lists"
+        app:layout_constraintBottom_toTopOf="@+id/search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/allMusic"
+        android:layout_width="153dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="28dp"
+        android:onClick="goToListOfMusic"
+        android:text="@string/all_musics"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/musicPlayer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="153dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="96dp"
+        android:text="@string/serarch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
