@@ -7,4 +7,15 @@
     <string name="music_lists">Music Lists</string>
     <string name="back">Back</string>
     <string name="menu">Menu</string>
+    <string name="playlists">PlayLists</string>
+    <string name="create_new_list">CREATE NEW LIST</string>
+    <string name="backToMenu">BACK</string>
+    <string name="create_new_playlist">CREATE NEW PLAYLIST</string>
+    <string name="playlist_name">PlayList name...</string>
+    <string name="home">Home</string>
+    <string name="create_a_new_playlist">Create a new PlayList</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
+    <string name="name_of_the_playlit">Name of the playlit...</string>
+    <string name="item">Item</string>
 </resources>

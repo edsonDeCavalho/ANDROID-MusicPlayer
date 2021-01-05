@@ -22,14 +22,14 @@ import java.util.ArrayList;
 
 public class AllMusics extends AppCompatActivity {
 
-    int j=0;
-    private static final int MY_PERMISSION_REQUEST=0;
-    ArrayList<String> list;
-    ArrayList<String> AllSongs;
-    String[] myStrings;
-    ListView listview;
-    ArrayAdapter<String> adapter;
-    private String[] myStrings1;
+        int j=0;
+        private static final int MY_PERMISSION_REQUEST=0;
+        ArrayList<String> list;
+        ArrayList<String> AllSongs;
+        String[] myStrings;
+        ListView listview;
+        ArrayAdapter<String> adapter;
+        private String[] myStrings1;
 
 
     @Override

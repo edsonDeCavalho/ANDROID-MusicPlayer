@@ -14,7 +14,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MusicPlayer">
-        <activity android:name=".CreateList"></activity>
+        <activity android:name=".CreateNewPlyaList"></activity>
+        <activity android:name=".PlayLists" />
+        <activity android:name=".CreatePlayList" />
+        <activity android:name=".CreateList" />
         <activity android:name=".Play" />
         <activity android:name=".Player" />
         <activity android:name=".AllMusics" />
