@@ -21,17 +21,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="6dp"
-        android:text="@string/create"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.828"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
         android:id="@+id/button3"
         android:layout_width="404dp"
         android:layout_height="50dp"
@@ -66,7 +55,6 @@
         android:backgroundTint="#C3B1F4"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/name_of_the_playlit"
         android:textColor="#FFFFFF"
         android:textStyle="italic"
         app:layout_constraintBottom_toTopOf="@+id/button3"
@@ -79,10 +67,8 @@
         android:layout_width="358dp"
         android:layout_height="241dp"
         android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
         android:background="#FFFCFC"
         android:cacheColorHint="#000000"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />

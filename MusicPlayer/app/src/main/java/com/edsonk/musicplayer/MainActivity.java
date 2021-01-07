@@ -41,4 +41,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, PlayLists.class);
         startActivity(intent);
     }
+
+    public void createAList(View view){
+        Intent intent = new Intent(this, CreateNewPlyaList.class);
+        startActivity(intent);
+    }
+
 }
